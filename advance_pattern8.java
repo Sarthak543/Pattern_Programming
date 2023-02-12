@@ -38,6 +38,41 @@ public class advance_pattern8 {
                 }
             }              
 
+            System.out.print("      ");
+            for (int j = 0; j < n; j++) { //I
+                if (j==(n-1)/2 || i==0 || i==n-1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            } 
+            
+            System.out.print("      ");
+            for (int j = 0; j < n; j++) { //L
+                if (j==0 || i==n-1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            } 
+            
+            System.out.print("      ");
+            for (int j = 0; j < n; j++) { //L
+                if (j==0 || i==n-1) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            } 
+
+            System.out.print("      ");
+            for (int j = 0; j < n; j++) { //S
+                if (((i==0 || i==n-1 || i==(n-1)/2) && j<=(n-1)/2)  || (j==0 &&i<=(n-1)/2) || (j==(n-1)/2 &&i>=(n-1)/2)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
             System.out.println();
         }
     }
