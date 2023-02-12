@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class advance_patttern {
+public class advance_patttern3 {
     public static void main(String[] args) {
         int n;
        Scanner sc=new Scanner(System.in);  
